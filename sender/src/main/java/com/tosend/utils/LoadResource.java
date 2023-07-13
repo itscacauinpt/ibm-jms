@@ -8,7 +8,6 @@ public class LoadResource {
     
     Locale locale = Locale.getDefault();
 
-    ResourceBundle i18n = ResourceBundle.getBundle("", locale, new CustomClassLoader("#FileChooser"));
 
   }
 }
